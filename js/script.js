@@ -77,10 +77,4 @@ function validateRegister(){
 }
 
 var audio = new Audio("../OST Dance Dance Dance!.mp3");
-audio.oncanplaythrough = function(){
-audio.play();
-}
-audio.loop = true;
-audio.onended = function(){
-audio.play();
-}
+var audio2 = new Audio("OST Dance Dance Dance!.mp3");
